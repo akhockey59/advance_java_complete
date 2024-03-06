@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+<books>
+    <book>
+        <name>one bottle down</name>
+        <author>honey paaji</author>
+        <price>1000rupye</price>
+    </book>
+    <book>
+        <name>harry potter</name>
+        <author>JK rowling</author>
+        <price>1200rupye</price>
+    </book>
+</books>

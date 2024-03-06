@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+<books>
+    <book>
+        <name>Five Point Someone</name>
+        <author>Chetan bhagat</author>
+        <rate>300 rs</rate>
+    </book>
+    <book>
+        <name>Boots belts berets</name>
+        <author>Tanushree Podder</author>
+        <rate>310 rs</rate>
+    </book>
+</books>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <context-param>
+        <param-name>Company</param-name>
+        <param-value>mnss</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>check</servlet-name>
+        <servlet-class>check</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>emp1</servlet-name>
+        <servlet-class>emp1</servlet-class>
+        <init-param>
+            <param-name>Name</param-name>
+            <param-value>Aakash</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>emp2</servlet-name>
+        <servlet-class>emp2</servlet-class>
+        <init-param>
+            <param-name>emp2</param-name>
+            <param-value>maurya</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>check</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>emp1</servlet-name>
+        <url-pattern>/emp1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>emp2</servlet-name>
+        <url-pattern>/emp2</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
